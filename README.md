@@ -1,2 +1,2 @@
-# Meu-potf-lio
-Desenvolvendo meu primeiro portfofio como desenvolvedora front-end web
+# Meu Portifolio
+Desenvolvendo meu primeiro portfofio como desenvolvedora 
