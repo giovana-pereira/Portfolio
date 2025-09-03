@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+  background-color: #1D1244;
+  color: #F0F0F0;
+  margin: 2px 15px;
+}
+
+.cabecalho {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.cabecalho button {
+  border: none;
+  margin: 10px 0;
+  padding: 8px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.cabecalho p {
+  margin: 0;
+}
+.cabecalho:hover {
+  text-decoration: underline;
+}
+.cabecalho .btn-translate {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+}
+
+#home {
+  width: 90vw;
+  height: 90vh;
+  display: flex;
+  flex-direction: row;
+}
+#home img {
+  width: 38%;
+  height: 78%;
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 0;
+  padding: 0;
+  left: 180px;
+  z-index: 1000;
+  background-color: transparent;
+}
+#home .descricao {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 18px;
+  margin-top: 5%;
+  margin-left: 30%;
+  position: relative;
+  width: 70%;
+}
+#home .desc-home-tittle {
+  font-size: 2rem;
+  margin: 15px;
+}
+#home span {
+  color: #FF5DD2;
+}
+#home .desc-text {
+  padding: 0;
+  margin: 0 15px;
+  text-align: justify;
+}
+#home .desc-text span {
+  font-weight: 600;
+  color: #F0F0F0;
+}
+#home .actions-home {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 25px auto;
+  height: 50px;
+}
+#home button {
+  width: 160px;
+  height: 30px;
+  padding: 15px;
+  border: none;
+  border-radius: 3px;
+  background-color: rgb(91, 92, 121);
+  color: #F0F0F0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 0.8em;
+  box-shadow: 1px 1px 4px #1E1E1E;
+}
+#home button iconify-icon {
+  font-size: 1rem;
+  background-color: transparent;
+}
+#home button:hover {
+  background-color: #F3C1E5;
+  cursor: pointer;
+  color: #1C1142;
+  font-weight: 600;
+}
+#home .midias {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  gap: 0;
+}
+#home .midias a iconify-icon {
+  font-size: 2rem;
+  padding: 0;
+  margin: 0;
+}
+#home .midias a iconify-icon:hover {
+  color: #AF9DF2;
+}/*# sourceMappingURL=index.css.map */
