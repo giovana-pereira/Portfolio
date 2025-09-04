@@ -15,7 +15,7 @@
 }
 .cabecalho button {
   border: none;
-  margin: 10px 0;
+  margin: 2% 0;
   padding: 8px;
   text-transform: uppercase;
   cursor: pointer;
@@ -55,10 +55,10 @@
   flex-direction: column;
   align-items: flex-start;
   padding: 18px;
-  margin-top: 5%;
+  margin-top: 9%;
   margin-left: 30%;
   position: relative;
-  width: 70%;
+  width: 48%;
 }
 #home .desc-home-tittle {
   font-size: 2rem;
@@ -108,6 +108,9 @@
   color: #1C1142;
   font-weight: 600;
 }
+#home button:hover iconify-icon {
+  color: #1C1142;
+}
 #home .midias {
   display: flex;
   flex-direction: row;
@@ -121,4 +124,51 @@
 }
 #home .midias a iconify-icon:hover {
   color: #AF9DF2;
+}
+
+#about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 80vw;
+  height: 80wh;
+  padding: 5%;
+}
+
+.container-about {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  flex-direction: column;
+  background-color: rgba(64, 54, 101, 0.5);
+  width: 80%;
+  height: 80%;
+  padding: 5%;
+  border-radius: 15px;
+  border: 1px solid #403665;
+}
+.container-about .tittle-section {
+  text-align: center;
+  background-color: transparent;
+  padding: 2%;
+  font-size: 35px;
+  color: #D0C8ED;
+}
+.container-about .desc-about {
+  text-align: justify;
+  background-color: transparent;
+  margin: 10px 13%;
+  color: #D0C8ED;
+  font-size: 1.3rem;
+}
+.container-about .desc-about strong {
+  background-color: transparent;
+  color: #D0C8ED;
+}
+
+.coffe-about {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
 }/*# sourceMappingURL=index.css.map */
