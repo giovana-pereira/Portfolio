@@ -1,0 +1,38 @@
+<iconify-icon icon="circum:globe" width="24" height="24"></iconify-icon>
+<iconify-icon icon="proicons:moon" width="24" height="24"></iconify-icon>
+
+<iconify-icon icon="uil:whatsapp" width="24" height="24"></iconify-icon>
+<iconify-icon icon="pajamas:project" width="16" height="16"></iconify-icon>
+
+<iconify-icon icon="ion:social-github" width="512" height="512"></iconify-icon>
+<iconify-icon icon="entypo-social:linkedin-with-circle" width="20" height="20"></iconify-icon>
+<iconify-icon icon="fluent:mail-48-filled" width="48" height="48"></iconify-icon>
+<iconify-icon icon="f7:doc-fill" width="56" height="56"></iconify-icon>
+
+
+<iconify-icon icon="mingcute:code-line" width="24" height="24"></iconify-icon>
+<iconify-icon icon="akar-icons:html-fill" width="24" height="24"></iconify-icon>
+<iconify-icon icon="formkit:github" width="16" height="16"></iconify-icon>
+<iconify-icon icon="fe:git" width="24" height="24"></iconify-icon>
+<iconify-icon icon="akar-icons:css-fill" width="24" height="24"></iconify-icon>
+<iconify-icon icon="fa-brands:sass" width="640" height="512"></iconify-icon>
+<iconify-icon icon="fa6-brands:js" width="448" height="512"></iconify-icon>
+<iconify-icon icon="akar-icons:php-fill" width="24" height="24"></iconify-icon>
+<iconify-icon icon="lineicons:python" width="24" height="24"></iconify-icon>
+<iconify-icon icon="simple-icons:mysql" width="24" height="24"></iconify-icon>
+<iconify-icon icon="devicon-plain:sqlite-wordmark" width="128" height="128"></iconify-icon>
+<iconify-icon icon="vscode-icons:file-type-scss2" width="32" height="32"></iconify-icon>
+<iconify-icon icon="fluent:organization-32-regular" width="32" height="32"></iconify-icon>
+<iconify-icon icon="arcticons:ux-led" width="48" height="48"></iconify-icon>
+<iconify-icon icon="fluent:design-ideas-48-filled" width="48" height="48"></iconify-icon>
+<iconify-icon icon="solar:figma-bold-duotone" width="24" height="24"></iconify-icon>
+<iconify-icon icon="jam:thunder-f" width="24" height="24"></iconify-icon>
+
+&copy
+
+
+
+
+
+<iconify-icon icon="mage:email" width="24" height="24"></iconify-icon>
+<iconify-icon icon="material-symbols-light:docs-outline-rounded" width="24" height="24"></iconify-icon>

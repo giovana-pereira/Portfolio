@@ -1,0 +1,272 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+/*  Exrmplo de mixing
+@mixin flex-center($direction, $bg){ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: $direction; //paremetro  
+    background: $bg;
+}
+
+
+@include flex-center(row, blue); //mixin
+
+*/
+* {
+  padding: 0;
+  font-family: "Inter", sans-serif;
+  background-color: #1D1244;
+  color: #F0F0F0;
+  margin: 2px 15px;
+}
+
+.cabecalho {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.cabecalho button {
+  border: none;
+  margin: 2% 0;
+  padding: 8px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.cabecalho p {
+  margin: 0;
+}
+.cabecalho:hover {
+  text-decoration: underline;
+}
+.cabecalho .btn-translate {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+}
+
+#home {
+  width: 90vw;
+  height: 90vh;
+  display: flex;
+  flex-direction: row;
+}
+#home img {
+  width: 40%;
+  height: 78%;
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 0;
+  padding: 0;
+  left: 150px;
+  z-index: 1000;
+  background-color: transparent;
+}
+#home .descricao {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 18px;
+  margin-top: 8%;
+  margin-left: 30%;
+  position: relative;
+  width: 55%;
+}
+#home .desc-home-tittle {
+  font-size: 2rem;
+  margin: 15px;
+}
+#home span {
+  color: #FF5DD2;
+}
+#home .desc-text {
+  padding: 0;
+  margin: 0 15px;
+  text-align: justify;
+}
+#home .desc-text span {
+  font-weight: 600;
+  color: #F0F0F0;
+}
+#home .actions-home {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 25px auto;
+  height: 50px;
+}
+#home button {
+  width: 160px;
+  height: 30px;
+  padding: 15px;
+  border: none;
+  border-radius: 3px;
+  background-color: rgb(91, 92, 121);
+  color: #F0F0F0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 0.8em;
+  box-shadow: 1px 1px 4px #1E1E1E;
+}
+#home button iconify-icon {
+  font-size: 1rem;
+  background-color: transparent;
+}
+#home button:hover {
+  background-color: #F3C1E5;
+  cursor: pointer;
+  color: #1C1142;
+  font-weight: 600;
+}
+#home button:hover iconify-icon {
+  color: #1C1142;
+}
+#home .midias {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  gap: 0;
+}
+#home .midias a iconify-icon {
+  font-size: 2rem;
+  padding: 0;
+  margin: 0;
+}
+#home .midias a iconify-icon:hover {
+  color: #AF9DF2;
+}
+
+#about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 80vw;
+  height: 80vh;
+  padding: 5%;
+  margin-top: 5%;
+}
+
+.container-about {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  flex-direction: column;
+  background-color: rgba(64, 54, 101, 0.5);
+  width: 80%;
+  height: 80%;
+  padding: 4%;
+  border-radius: 15px;
+  border: 1px solid #403665;
+}
+.container-about h2 {
+  text-align: center;
+  background-color: transparent;
+  padding: 2%;
+  font-size: 35px;
+  color: #D0C8ED;
+}
+.container-about .desc-about {
+  text-align: justify;
+  background-color: transparent;
+  margin: 10px 13%;
+  color: #D0C8ED;
+  font-size: 1.3rem;
+}
+.container-about .desc-about strong {
+  background-color: transparent;
+  color: #D0C8ED;
+}
+
+.coffe-about {
+  position: relative;
+  bottom: 12%;
+  left: 80%;
+  z-index: 1000;
+  background-color: transparent;
+}
+
+#habilits {
+  width: 90vw;
+  height: 100vh;
+}
+#habilits h2 {
+  text-align: center;
+  background-color: transparent;
+  padding: 2%;
+  font-size: 35px;
+  color: #D0C8ED;
+}
+#habilits .container-btn-filters-habilits {
+  padding: 10px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+  margin-left: 5%;
+}
+#habilits .container-btn-filters-habilits .btn-habilit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  border: 2px solid #AF9DF2;
+  border-radius: 5px;
+  padding: 18px;
+  width: 15%;
+  height: 10px;
+  font-size: 1rem;
+  text-transform: uppercase;
+  box-shadow: 3px 3px 1px #403665;
+}
+#habilits .container-btn-filters-habilits .btn-habilit:hover {
+  cursor: pointer;
+  background-color: #AF9DF2;
+  color: #1D1244;
+  font-weight: 700;
+}
+#habilits .container-habilits {
+  display: grid;
+  grid-template-columns: repeat(6, 15%);
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+  row-gap: 20px;
+  margin: 20px auto;
+  width: 80vw;
+  height: 80vh;
+}
+#habilits .container-habilit-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  padding: 12px;
+  height: 120px;
+  width: 120px;
+  border: 2px solid rgba(64, 54, 101, 0.5);
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+}
+#habilits .container-habilit-item .icon {
+  font-size: 50px;
+}
+#habilits .container-habilit-item span, #habilits .container-habilit-item iconify-icon, #habilits .container-habilit-item p {
+  background-color: transparent;
+  color: #403665;
+}
+#habilits .container-habilit-item:hover {
+  cursor: pointer;
+  background-color: rgba(64, 54, 101, 0.5);
+}
+#habilits .container-habilit-item:hover span, #habilits .container-habilit-item:hover iconify-icon, #habilits .container-habilit-item:hover p {
+  color: #F0F0F0;
+}
+
+#projects {
+  margin-top: 5%;
+  background-color: aqua;
+}/*# sourceMappingURL=index.css.map */

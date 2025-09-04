@@ -1,0 +1,24 @@
+@mixin tittle-section(){
+    text-align: center;
+    background-color: transparent;
+    padding: 2%;
+    font-size: 35px;
+    color: $purple-light-text-color;
+}
+
+
+/*  Exrmplo de mixing
+@mixin flex-center($direction, $bg){ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: $direction; //paremetro  
+    background: $bg;
+}
+
+
+@include flex-center(row, blue); //mixin
+
+*/
+
