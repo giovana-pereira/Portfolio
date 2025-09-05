@@ -446,7 +446,7 @@
             align-items: center;
             text-align: center;
             justify-content: center;
-            gap: 0;
+            gap: 3px;
             width: 20%;
             height: 5px;
             margin: 3% auto 2%; 
@@ -456,7 +456,6 @@
                 color: $selector-color;
                 width: 3px;
                 height: 2px;
-                gap: 0;
                 border-radius: 100%;
                 margin: 3px;
                 padding: 2px;
@@ -470,10 +469,38 @@
                     background-color: $used-selector-color;
                 }
         }
-
-
 }
 
+//contact
+#contact{
+    width: 90vw;
+    height: 100vh;
+
+    h2{
+        @include tittle-section();
+        text-transform: uppercase;
+        color: $white-text-color;
+    }
+
+    p{
+        color: $white-text-color;
+        text-align: center;
+        margin-top: 8px;
+    }
+}
+
+
+//rodapé
+footer{
+    text-align: center;
+    font-size: 13px;
+    padding: 25px;
+
+    p{
+        color: $footer-text-color;
+    }
+
+}
 
 
 

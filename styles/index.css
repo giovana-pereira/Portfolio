@@ -407,7 +407,7 @@
   align-items: center;
   text-align: center;
   justify-content: center;
-  gap: 0;
+  gap: 3px;
   width: 20%;
   height: 5px;
   margin: 3% auto 2%;
@@ -417,7 +417,6 @@
   color: #473589;
   width: 3px;
   height: 2px;
-  gap: 0;
   border-radius: 100%;
   margin: 3px;
   padding: 2px;
@@ -427,4 +426,32 @@
   width: 5px;
   height: 5px;
   background-color: #6452A6;
+}
+
+#contact {
+  width: 90vw;
+  height: 100vh;
+}
+#contact h2 {
+  text-align: center;
+  background-color: transparent;
+  padding: 2%;
+  font-size: 35px;
+  color: #D0C8ED;
+  text-transform: uppercase;
+  color: #F0F0F0;
+}
+#contact p {
+  color: #F0F0F0;
+  text-align: center;
+  margin-top: 8px;
+}
+
+footer {
+  text-align: center;
+  font-size: 13px;
+  padding: 25px;
+}
+footer p {
+  color: #D79CF3;
 }/*# sourceMappingURL=index.css.map */
