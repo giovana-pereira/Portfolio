@@ -28,6 +28,9 @@
 <iconify-icon icon="solar:figma-bold-duotone" width="24" height="24"></iconify-icon>
 <iconify-icon icon="jam:thunder-f" width="24" height="24"></iconify-icon>
 
+
+<iconify-icon icon="fluent:ios-arrow-24-filled"></iconify-icon>
+
 &copy
 
 
